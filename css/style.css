@@ -1,0 +1,101 @@
+*{
+    margin: 0 auto;
+}
+
+.container{
+    width: 800px;
+    background-color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.rosa{
+    width: 100%;
+    height: 100px;
+    background-color: pink;
+}
+
+.giallo {
+    margin-top: 20px;
+    width: 100%;
+    height: 400px;
+    background-color: yellow;
+}
+
+
+
+
+/* .blu{
+    width: 100%;
+    height: 470px;
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.primo-blu{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(67, 128, 241);
+    margin-bottom: 20px;
+}
+
+
+
+.secondo-blu{
+    height: 400px;
+    width: 300px;
+    background-color: rgb(67, 128, 241);
+    float: left;
+} */
+
+.viola{
+    width: 100%;
+    height: 100px;
+    
+    background-color: purple;
+}
+
+.blu{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: blue;
+
+
+}
+.primo-blu{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    background-color: rgba(49, 245, 251, 0.596);
+
+}
+
+.row::after {
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.row-1 {
+    margin-right: 20px;
+    float:left;
+    background-color: rgba(49, 245, 251, 0.596);
+    height: 300px;
+    width: 25%;
+}
+
+.row-2 {
+    float:left;
+    background-color: rgba(49, 245, 251, 0.596);
+    width: calc(50% - 40px);
+    margin-right: 20px;
+    height: 300px;
+}
+
+
+.row-3{
+        float:left;
+        background-color: rgba(49, 245, 251, 0.596);
+        height: 300px;
+        width: 25%;
+}
